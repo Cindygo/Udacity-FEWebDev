@@ -2,6 +2,11 @@ body {
 	margin-top: 20px;
 }
 
+.container {
+	min-height:100%;
+	position:relative;
+}
+
 a {
 	font-size: smaller;
 	color: #E79020;
@@ -15,6 +20,7 @@ h1 {
 }
 
 h2 {
+	font-size: 25px;
 	color: #7A8C8E;
 }
 
@@ -32,8 +38,15 @@ hr {
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 
+.site-footer {
+	padding-top: 5px;
+	color: gray;
+	font-size: smaller;
+}
+
+
 @media (min-width:768px) {
 	.col-md-4 {
-	width: 33.33333333%;
+	width: 33.33333333%;}
 }
 
